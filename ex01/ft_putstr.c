@@ -27,7 +27,7 @@ void	ft_putstr(char *str)
 
 int main()
 {
-	str = "hello";
-	ft_putstr(p);
+	char str[] = "what's the story, morning glory";
+	ft_putstr(str);
 	return (0);
 }
