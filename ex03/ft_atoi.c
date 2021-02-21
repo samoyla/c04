@@ -6,7 +6,7 @@
 /*   By: msamoile <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/18 09:51:28 by msamoile          #+#    #+#             */
-/*   Updated: 2021/02/20 15:57:54 by msamoile         ###   ########.fr       */
+/*   Updated: 2021/02/20 16:27:23 by msamoile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,14 +34,4 @@ int	ft_atoi(char *str)
 		i++;
 	}
 	return (result * sign);
-}
-
-#include <stdio.h>
-
-int	main()
-{
-	char str[] = "- 12345";
-	int val = ft_atoi(str);
-	printf("%d", val);
-	return (0);
 }
